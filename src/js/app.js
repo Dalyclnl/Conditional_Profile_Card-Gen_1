@@ -36,7 +36,7 @@ function render(variables = {}) {
           <h1> ${variables.name ? variables.name : "Lucy"} ${
     variables.lastname ? variables.lastname : "Lou"
   }  </h1>
-          <h2> ${variables.rol ? variables.rol : "Web Developer"} </h2>
+          <h2> ${variables.role ? variables.role : "Web Developer"} </h2>
           <h3> ${variables.city ? variables.city : "Miami"}, ${
     variables.country ? variables.country : "USA"
   } </h3>
